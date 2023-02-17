@@ -1,0 +1,27 @@
+.card-title{
+    position: relative;
+    margin-left: 35%;
+    border: 2px;
+    margin-top: -6.5%;
+    background: white;
+    width: fit-content;
+    border-radius: 30PX;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    color: gray;
+}
+.DateTime-title{
+    position: relative;
+    margin-left: 27%;
+    border: 2px;
+    margin-top: -6.8%;
+    background: white;
+    width: fit-content;
+    border: solid 1px gray;
+    border-radius: 30PX;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    color: gray;
+}

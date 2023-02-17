@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/mission_landing_page.css">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" /> -->
+</head>
+
+<body>
+  <div class="container-fluid g-0">
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-light border-bottom align-items-center justify-content-around p-2 pb-0 pt-0">
+      <div class="container-fluid">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon border-0"></span>
+        </button>
+        <a class="navbar-brand">
+          <img src="./images/logo.png" alt="logo" class="mw-100" />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <button class="nav-link border-0 bg-transparent p-3 text-dark">
+                Stories
+              </button>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle border-0 bg-transparent p-3 text-dark" id="navbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Policy
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <button class="navbar-toggler bi bi-bell m-0 border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"></button>
+          <img src="./images/user-img.png" alt="avatar" class="rounded-circle" height="50" width="50" />
+          <li class="nav-item dropdown collapse navbar-collapse" style="list-style: none">
+            <button class="nav-link dropdown-toggle border-0 bg-transparent dropdown-toggle p-3 text-dark"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Evan Donohue
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-around shadow p-2 pb-0 pt-0 bg-body">
+      <div class="container-fluid">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1"
+          aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+          <span><img src="images/filter.png" alt=""></span>
+        </button>
+        <div class="m-0 w-50">
+          <a class="navbar-brand">
+            <img src="./images/search.png" alt="logo" class="mw-100" />
+            <input type="text" placeholder="Search hear..." class="border-0 bg-transparent mw-100" />
+          </a>
+        </div>
+        <div class="d-flex align-content-around mt-0 mb-0">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown border-2">
+                <button
+                  class="nav-link dropdown-toggle border border-top-0 border-bottom-0 bg-transparent p-3 text-dark"
+                  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Country
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <button
+                  class="nav-link dropdown-toggle border border-top-0 border-bottom-0 bg-transparent p-3 text-dark"
+                  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  City
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <button
+                  class="nav-link dropdown-toggle border border-top-0 border-bottom-0 bg-transparent p-3 text-dark"
+                  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Theme
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <button
+                  class="nav-link dropdown-toggle border border-top-0 border-bottom-0 bg-transparent p-3 text-dark"
+                  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Skills
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row row-cols-1 row-cols-md-3 g-2 m-3">
+      <div class="col-lg-4 d-flex align-items-stretch">
+        <div class="card">
+          <img src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+      
+            <p class="card-title">Nutrition</p>
+            <div class="m-2">
+              <h4 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti nesciunt mollitia voluptate minus
+                harum, sequi fugiat quis excepturi ipsum animi quod reiciendis voluptatibus aperiam alias unde, esse possimus
+                asperiores?
+              </p>
+              <div class="d-flex justify-content-between">
+                <p>Earth vale</p>
+                <p>#rating</p>
+              </div>
+            </div>
+            <hr>
+            <p class="DateTime-title">From date to until date</p>
+            <div class="d-flex flex-wrap justify-content-around">
+              <div class=" d-flex justify-content-around">
+                  <img class="w-50 h-50 mt-2 " src="images/Seats-left.png" alt="">
+                  <div class="mx-2">
+                      <p class="mb-0">23</p>
+                      <p class="mt-0">hhhh</p>
+                  </div>
+              </div>
+              <div class=" d-flex justify-content-around">
+                <img class="w-50 h-50 mt-2 " src="images/mission.png" alt="">
+                <div class="mx-2">
+                    <p class="mb-0">23</p>
+                    <p class="mt-0">hhhh</p>
+                </div>
+            </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center">
+                <a class="btn border text-danger  bg-gradient rounded-pill px-4">Apply  <img src="images/right-arrow.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+      
+            <p class="card-title">Nutrition</p>
+            <div class="m-2">
+              <h4 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti nesciunt mollitia voluptate minus
+                harum, sequi fugiat quis excepturi ipsum animi quod reiciendis voluptatibus aperiam alias unde, esse possimus
+                asperiores?
+              </p>
+              <div class="d-flex justify-content-between">
+                <p>Earth vale</p>
+                <p>#rating</p>
+              </div>
+            </div>
+            <hr>
+            <p class="DateTime-title">From date to until date</p>
+            <div class="d-flex flex-wrap justify-content-around">
+              <div class=" d-flex justify-content-around">
+                  <img class="w-50 h-50 mt-2 " src="images/Seats-left.png" alt="">
+                  <div class="mx-2">
+                      <p class="mb-0">23</p>
+                      <p class="mt-0">hhhh</p>
+                  </div>
+              </div>
+              <div class=" d-flex justify-content-around">
+                <img class="w-50 h-50 mt-2 " src="images/mission.png" alt="">
+                <div class="mx-2">
+                    <p class="mb-0">23</p>
+                    <p class="mt-0">hhhh</p>
+                </div>
+            </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center">
+                <a class="btn border text-danger  bg-gradient rounded-pill px-4">Apply  <img src="images/right-arrow.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+      
+            <p class="card-title">Nutrition</p>
+            <div class="m-2">
+              <h4 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti nesciunt mollitia voluptate minus
+                harum, sequi fugiat quis excepturi ipsum animi quod reiciendis voluptatibus aperiam alias unde, esse possimus
+                asperiores?
+              </p>
+              <div class="d-flex justify-content-between">
+                <p>Earth vale</p>
+                <p>#rating</p>
+              </div>
+            </div>
+            <hr>
+            <p class="DateTime-title">From date to until date</p>
+            <div class="d-flex flex-wrap justify-content-around">
+              <div class=" d-flex justify-content-around">
+                  <img class="w-50 h-50 mt-2 " src="images/Seats-left.png" alt="">
+                  <div class="mx-2">
+                      <p class="mb-0">23</p>
+                      <p class="mt-0">hhhh</p>
+                  </div>
+              </div>
+              <div class=" d-flex justify-content-around">
+                <img class="w-50 h-50 mt-2 " src="images/mission.png" alt="">
+                <div class="mx-2">
+                    <p class="mb-0">23</p>
+                    <p class="mt-0">hhhh</p>
+                </div>
+            </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center">
+                <a class="btn border text-danger  bg-gradient rounded-pill px-4">Apply  <img src="images/right-arrow.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+      
+            <p class="card-title">Nutrition</p>
+            <div class="m-2">
+              <h4 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti nesciunt mollitia voluptate minus
+                harum, sequi fugiat quis excepturi ipsum animi quod reiciendis voluptatibus aperiam alias unde, esse possimus
+                asperiores?
+              </p>
+              <div class="d-flex justify-content-between">
+                <p>Earth vale</p>
+                <p>#rating</p>
+              </div>
+            </div>
+            <hr>
+            <p class="DateTime-title">From date to until date</p>
+            <div class="d-flex flex-wrap justify-content-around">
+              <div class=" d-flex justify-content-around">
+                  <img class="w-50 h-50 mt-2 " src="images/Seats-left.png" alt="">
+                  <div class="mx-2">
+                      <p class="mb-0">23</p>
+                      <p class="mt-0">hhhh</p>
+                  </div>
+              </div>
+              <div class=" d-flex justify-content-around">
+                <img class="w-50 h-50 mt-2 " src="images/mission.png" alt="">
+                <div class="mx-2">
+                    <p class="mb-0">23</p>
+                    <p class="mt-0">hhhh</p>
+                </div>
+            </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center">
+                <a class="btn border text-danger  bg-gradient rounded-pill px-4">Apply  <img src="images/right-arrow.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
