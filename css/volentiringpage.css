@@ -1,0 +1,122 @@
+@media screen and (max-width : 768px) {
+     #chumantar {
+     display: none;
+     }
+     
+     
+     }
+     
+     @media screen and (min-width : 768px) {
+     .setHeight {
+     height: 550px;
+     }
+     }
+     
+     #tabs {
+     text-align: justify;
+     }
+     
+     .setHeight {
+     height: 550px;
+     }
+     
+     .mySlides {
+     display: none;
+     }
+     
+     .slider-img {
+     position: relative;
+     }
+     
+     .cursor {
+     cursor: pointer;
+     }
+     
+     .prev,
+     .next {
+     cursor: pointer;
+     position: absolute;
+     top: 45%;
+     width: auto;
+     padding: 16px;
+     margin-top: -50px;
+     color: white;
+     font-weight: bold;
+     font-size: 15px;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+     -webkit-user-select: none;
+     }
+     
+     .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+     }
+     
+     .prev:hover,
+     .next:hover {
+     background-color: rgba(255, 255, 255, 0.8);
+     }
+     
+     .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+     }
+     
+     
+     .row:after {
+     content: "";
+     display: table;
+     clear: both;
+     }
+     
+     .column {
+     float: left;
+     width: 16.66%;
+     }
+     
+     .demo {
+     opacity: 0.6;
+     }
+     
+     .active {
+     opacity: 1;
+     }
+     
+     .demo:hover {
+     opacity: 0.7;
+     }
+     
+     
+     .dateTime {
+          border: 1px solid lightgray;
+          margin-top: -30px;
+          background: white;
+          width: fit-content;
+          border-radius: 30PX;
+          border-color: gray;
+          padding-left: 20px;
+          padding-top: 2px;
+          padding-right: 20px;
+          color: gray;
+          z-index: 1;
+      }
+     
+     
+     .nav-tabs .nav-link:focus,
+     .nav-tabs .nav-link:hover,
+     .nav-tabs .nav-item.show .nav-link,
+     .nav-tabs .nav-link.active {
+     border-color: transparent;
+     color: #505050;
+     }
+     
+     .nav-tabs .nav-item.show .nav-link,
+     .nav-tabs .nav-link.active {
+     border-bottom: 3px solid black;
+     color: gray;
+     font-weight: 500;
+     }
