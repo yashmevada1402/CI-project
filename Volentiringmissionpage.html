@@ -7,6 +7,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link rel="stylesheet" href="css/bootstrap.min.css" />
      <link rel="stylesheet" href="css/volentiringpage.css" />
+     <link rel="stylesheet" href="css/mission_landing_page.css">
      <script src="js/bootstrap.min.js"></script>
      <title>Document</title>
 </head>
@@ -14,7 +15,7 @@
 <body>
      <div class="container-fluid g-0">
           <!-- NavBar 1------------------------------------------------------------------------------------------->
-          <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <nav class="navbar navbar-expand-md navbar-light bg-transparent border-bottom border-top border-4 border-light">
                <div class="container-fluid">
                     <button class="btn btn-primary navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
                          data-bs-target="#offcanvasExample " aria-controls="offcanvasExample " aria-expanded="false">
@@ -86,7 +87,7 @@
                </div>
           </nav>
           <!-- NavBar 2------------------------------------------------------------------------------------------>
-          <nav
+          <!-- <nav
                class="navbar navbar-expand-md navbar-light bg-light justify-content-around shadow p-0 pb-0 pt-0 bg-body">
                <div class="container-fluid">
                     <div class="m-0 w-50">
@@ -304,18 +305,18 @@
                          <span class="border-0"><img src="./images/filter.png" alt="filter" /></span>
                     </button>
                </div>
-          </nav>
+          </nav> -->
      </div>
 
      <!-- carosal and rating container -->
-     <div class="container-fluid g-3">
+     <div class="container-fluid g-3 mt-3">
           <div class="row">
                <!-- Slider -->
-               <div class="col-lg-5 slider-img">
+               <div class="col-lg-5 slider-img align-self-center">
                     <div class="mySlides myslide1">
                          <div class="numbertext">1 / 6</div>
                          <img src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png"
-                              class="w-100 setHeight" />
+                              class="w-100  setHeight" />
                     </div>
 
                     <div class="mySlides">
@@ -387,11 +388,10 @@
                     </div>
                </div>
                <!-- rating -->
-               <div class="col-lg-7">
+               <div class="col-lg-7 align-self-center">
                     <div class="row m-3 mt-3 my-auto">
-                         <h4>
-                              Some quick example text to build on the card title and make up the
-                              bulk of the card's content.
+                         <h4 class="text-muted fs-2">
+                              CSR initiative stands for Coffee and Farmer Equity
                          </h4>
                          <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
@@ -410,42 +410,41 @@
                     <div class="row">
                          <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-around">
                               <div class="d-flex justify-content-center flex-grow-1">
-                                   <div class="flex-shrink-0">
-                                        <img src="images/Seats-left.png" alt="..." />
+                                   <div class="flex-shrink-0 align-self-center">
+                                        <img src="images/Seats-left.png" alt="..."  />
                                    </div>
-                                   <div class="d-flex flex-column ms-3">
+                                   <div class="d-flex flex-column ms-3 align-self-center">
                                         <div>90</div>
                                         <div style="font-size: small">Seats Left</div>
                                    </div>
                               </div>
 
                               <div class="d-flex justify-content-center flex-grow-1">
-                                   <div class="flex-shrink-0">
-                                        <img src="images/mission.png" alt="..." />
+                                   <div class="flex-shrink-0 align-self-center">
+                                        <img src="images/mission.png" alt="..."  />
                                    </div>
-                                   <div class="d-flex flex-column ms-3">
+                                   <div class="d-flex flex-column ms-3 align-self-center pt-2">
                                         <div class="progress">
                                              <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
                                                   aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
-                                        <div style="font-size: small">8,000 achieved</div>
+                                        <div style="font-size: small" class="pt-2">8,000 achieved</div>
                                    </div>
                               </div>
                          </div>
-                         <div class="mt-3"></div>
-                         <hr />
+                         <hr class="mt-2 mb-2"/>
                     </div>
                     <!-- favourite and recomand -->
                     <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-around">
                          <!-- favourite -->
                          <div class="d-flex justify-content-center m-2">
-                              <button class="border-1 bg-transparent rounded-pill px-5 py-2">
+                              <button class="btn border border-2 border-secondary  bg-transparent rounded-pill px-3 py-2">
                                    <img src="images/heart1.png" alt="like" /> Add to Favourite
                               </button>
                          </div>
                          <!-- recomand -->
                          <div class="d-flex justify-content-center m-2">
-                              <button class="border-1 bg-transparent rounded-pill px-5 py-2">
+                              <button class="btn border border-2 border-secondary  bg-transparent rounded-pill px-3 py-2">
                                    <img src="images/add1.png" alt="like" /> Recommend to a
                                    Co-Worker
                               </button>
@@ -460,11 +459,11 @@
                               <div class="d-flex DateTime-class justify-content-center">
                                    <div class="dateTime border-0 px-1">
                                         <div class="d-flex">
-                                             <img src="images/selected-star.png" alt="" />
-                                             <img src="images/selected-star.png" alt="" />
-                                             <img src="images/selected-star.png" alt="" />
-                                             <img src="images/selected-star.png" alt="" />
-                                             <img src="images/selected-star.png" alt="" />
+                                             <img src="images/star-empty.png" alt="">
+                                             <img src="images/star-empty.png" alt="">
+                                             <img src="images/star-empty.png" alt="">
+                                             <img src="images/star-empty.png" alt="">
+                                             <img src="images/star-empty.png" alt="">
                                         </div>
                                    </div>
                               </div>
@@ -473,8 +472,8 @@
                          <div class="row">
                               <div class="d-flex justify-content-around flex-wrap">
                                    <div class="d-flex flex-column justify-content-between border rounded mt-2"
-                                        style="width: 130px">
-                                        <div class="pb-5 px-2 pt-2">
+                                        style="width: 153px ;height: 130px;">
+                                        <div class="pb-3 px-2 pt-2">
                                              <img src="images/pin1.png" alt="" srcset="" />
                                         </div>
                                         <div class="px-2 pb-2">
@@ -483,33 +482,33 @@
                                         </div>
                                    </div>
                                    <div class="d-flex flex-column justify-content-between border rounded mt-2"
-                                        style="width: 130px">
-                                        <div class="pb-5 px-2 pt-2">
-                                             <img src="images/web.png" alt="" srcset="" />
+                                        style="width: 153px ;height: 130px;">
+                                        <div class="pb-3 px-2 pt-2">
+                                             <img src="images/pin1.png" alt="" srcset="" />
                                         </div>
                                         <div class="px-2 pb-2">
-                                             <div class="text-muted">Theme</div>
-                                             <div>Environment</div>
+                                             <div class="text-muted">City</div>
+                                             <div>London</div>
                                         </div>
                                    </div>
                                    <div class="d-flex flex-column justify-content-between border rounded mt-2"
-                                        style="width: 130px">
-                                        <div class="pb-5 px-2 pt-2">
-                                             <img src="images/calender.png" alt="" srcset="" />
+                                        style="width: 153px ;height: 130px;">
+                                        <div class="pb-3 px-2 pt-2">
+                                             <img src="images/pin1.png" alt="" srcset="" />
                                         </div>
                                         <div class="px-2 pb-2">
-                                             <div class="text-muted">Date</div>
-                                             <div>On going opportunity</div>
+                                             <div class="text-muted">City</div>
+                                             <div>London</div>
                                         </div>
                                    </div>
                                    <div class="d-flex flex-column justify-content-between border rounded mt-2"
-                                        style="width: 130px">
-                                        <div class="pb-5 px-2 pt-2">
-                                             <img src="images/organization.png" alt="" srcset="" />
+                                        style="width: 153px ;height: 130px;">
+                                        <div class="pb-3 px-2 pt-2">
+                                             <img src="images/pin1.png" alt="" srcset="" />
                                         </div>
                                         <div class="px-2 pb-2">
-                                             <div class="text-muted">Organization</div>
-                                             <div>CSE Network</div>
+                                             <div class="text-muted">City</div>
+                                             <div>London</div>
                                         </div>
                                    </div>
                               </div>
@@ -517,8 +516,8 @@
                     </div>
                     <!-- apply button -->
                     <div class="d-flex justify-content-center pt-3">
-                         <button class="rounded-pill btn btn-outline-warning border-2 px-5 p-2">
-                              Apply <img src="images/right-arrow.png" alt="" />
+                         <button class="rounded-pill btn btn-outline-warning border-2  p-2 px-3">
+                              Apply Now<img src="images/right-arrow.png" alt="" class="px-2"/>
                          </button>
                     </div>
                </div>
@@ -527,7 +526,7 @@
 
      <!----------- -------  Tabs and information  ---------------- -->
      <div class="row mt-3 px-3">
-          <div class="col-xl-8 col-lg-8 col-md-8">
+          <div class="col-xl-8 col-lg-8 col-md-12">
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                          <button class="nav-link active text-black" id="mission-tab" data-bs-toggle="tab"
@@ -595,7 +594,7 @@
                          </p>
                          <h3>Documents</h3>
                          <div
-                              class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around">
+                              class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-around">
                               <div class="d-flex justify-content-center mt-2">
                                    <button class="btn btn-outline-dark rounded-pill py-2">
                                         <img src="images/pdf.png" alt="like" /> lorem-ipsum.pdf
@@ -698,12 +697,12 @@
                </div>
           </div>
           <!-- info and recent volunteered -->
-          <div class="col-xl-4 col-lg-4 col-md-4 container-fluid mt-5 px-5">
+          <div class="col-xl-4 col-lg-4 col-md-12 container-fluid px-5 ">
                <div class="row border rounded border-secondary mt-2">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                          <li class="nav-item" role="presentation">
                               <button class="nav-link active fs-3" data-bs-toggle="tab" data-bs-target="#tab-1"
-                                   type="button" role="tab" aria-controls="home" aria-selected="true">
+                                   type="button" role="tab" aria-controls="home" aria-selected="true" style="color: #414141; letter-spacing: 0cm; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                                    Information
                               </button>
                          </li>
@@ -724,12 +723,12 @@
                                    <hr />
                                    <div class="d-flex pb-3">
                                         Rating
-                                        <div class="d-flex">
-                                             <img src="images/selected-star.png" alt="" srcset="" />
-                                             <img src="images/selected-star.png" alt="" srcset="" />
-                                             <img src="images/selected-star.png" alt="" srcset="" />
-                                             <img src="images/selected-star.png" alt="" srcset="" />
-                                             <img src="images/selected-star.png" alt="" srcset="" />
+                                        <div class="d-flex px-4">
+                                             <img src="images/selected-star.png" alt="" srcset="" style="height: 20px; width: 20px; " class="align-self-center" />
+                                             <img src="images/selected-star.png" alt="" srcset="" style="height: 20px; width: 20px; " class="align-self-center" />
+                                             <img src="images/selected-star.png" alt="" srcset="" style="height: 20px; width: 20px; " class="align-self-center" />
+                                             <img src="images/selected-star.png" alt="" srcset="" style="height: 20px; width: 20px; " class="align-self-center" />
+                                             <img src="images/selected-star.png" alt="" srcset="" style="height: 20px; width: 20px; " class="align-self-center" />
                                         </div>
                                    </div>
                               </div>
@@ -740,96 +739,273 @@
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                          <li class="nav-item" role="presentation">
                               <button class="nav-link active fs-3" data-bs-toggle="tab" data-bs-target="#tab-1"
-                                   type="button" role="tab" aria-controls="home" aria-selected="true">
+                                   type="button" role="tab" aria-controls="home" aria-selected="true " style="color: #414141; letter-spacing: 0cm; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                                    Recent Volunteers
                               </button>
                          </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                          <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
-                              <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2">
+                              <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-3">
                                    <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
                                              <div class="d-flex justify-content-center">
                                                   <img src="images/volunteer4.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
                                              </div>
                                              <div class="d-flex justify-content-center">kjjj</div>
                                         </div>
                                    </div>
                                    <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
                                              <div class="d-flex justify-content-center">
                                                   <img src="images/volunteer4.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
                                              </div>
-                                             <div class="d-flex justify-content-center">gg</div>
+                                             <div class="d-flex justify-content-center">kjjj</div>
                                         </div>
                                    </div>
                                    <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
                                              <div class="d-flex justify-content-center">
                                                   <img src="images/volunteer4.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
                                              </div>
-                                             <div class="d-flex justify-content-center">h</div>
+                                             <div class="d-flex justify-content-center">kjjj</div>
                                         </div>
                                    </div>
                                    <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
                                              <div class="d-flex justify-content-center">
                                                   <img src="images/volunteer4.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
-                                             </div>
-                                             <div class="d-flex justify-content-center">hh</div>
-                                        </div>
-                                   </div>
-                                   <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
-                                             <div class="d-flex justify-content-center">
-                                                  <img src="images/volunteer9.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
                                              </div>
                                              <div class="d-flex justify-content-center">kjjj</div>
                                         </div>
                                    </div>
                                    <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
                                              <div class="d-flex justify-content-center">
-                                                  <img src="images/volunteer9.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
+                                                  <img src="images/volunteer4.png" alt=""
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
                                              </div>
                                              <div class="d-flex justify-content-center">kjjj</div>
                                         </div>
                                    </div>
                                    <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
                                              <div class="d-flex justify-content-center">
-                                                  <img src="images/volunteer9.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
+                                                  <img src="images/volunteer4.png" alt=""
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
                                              </div>
                                              <div class="d-flex justify-content-center">kjjj</div>
                                         </div>
                                    </div>
                                    <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
                                              <div class="d-flex justify-content-center">
-                                                  <img src="images/volunteer9.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
+                                                  <img src="images/volunteer4.png" alt=""
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
                                              </div>
                                              <div class="d-flex justify-content-center">kjjj</div>
                                         </div>
                                    </div>
                                    <div class="col">
-                                        <div class="d-flex flex-column justify-content-center mt-2 mb-1">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
                                              <div class="d-flex justify-content-center">
-                                                  <img src="images/volunteer9.png" alt=""
-                                                       class="rounded-circle w-50 h-50" srcset="" />
+                                                  <img src="images/volunteer4.png" alt=""
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
+                                             </div>
+                                             <div class="d-flex justify-content-center">kjjj</div>
+                                        </div>
+                                   </div>
+                                   <div class="col">
+                                        <div class="d-flex flex-column justify-content-between mt-2 mb-1">
+                                             <div class="d-flex justify-content-center">
+                                                  <img src="images/volunteer4.png" alt=""
+                                                       class="rounded-circle " style="max-height: 50px; max-width: 50px;" srcset="" />
                                              </div>
                                              <div class="d-flex justify-content-center">kjjj</div>
                                         </div>
                                    </div>
                               </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- related mission -->
+     <div class="d-flex justify-content-center pt-3">
+          <h1>Related Mission</h1>
+     </div>
+     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2 m-3">
+          <div class="col">
+               <div class="card">
+                    <!-- ./images -------------------------------------------------------------------------------->
+                    <div class="mission-image">
+                         <img src="./images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" alt=""
+                              class="w-100" />
+                         <div class="pin">
+                              <img src="./images/pin.png" alt="" class="" />&nbsp; Toronto
+                         </div>
+                         <div class="favourite">
+                              <img src="./images/heart.png" alt="" class="mw-50 mh-50" />
+                         </div>
+                         <div class="adduser">
+                              <img src="./images/user.png" alt="" class="mw-50 mh-50" />
+                         </div>
+                    </div>
+                    <!-- Card Body ---------------------------------------------------------------------------->
+                    <div class="card-body">
+                         <div class="d-flex justify-content-center">
+                              <p class="card-title position-absolute">Tree Plantation</p>
+                         </div>
+                         <div class="m-2">
+                              <h4 class="card-text">
+                                   Grow Trees - On the path To enviroment sustainability
+                              </h4>
+                              <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                   Nobis corrupti nesciunt mollitia voluptate minus harum,
+                                   sequi fugiat quis excepturi ipsum animi quod reiciendis
+                                   voluptatibus aperiam alias unde, esse possimus asperiores?
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                   <p>Tree Canada</p>
+                                   <div>
+                                        <div class="d-flex">
+                                             <img src="./images/selected-star.png" alt=""
+                                                  class="mw-100" /><img src="./images/selected-star.png"
+                                                  alt="" /><img src="./images/selected-star.png" alt="" /><img
+                                                  src="./images/selected-star.png" alt="" /><img
+                                                  src="./images/selected-star.png" alt="" />
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <hr />
+                         <div class="d-flex justify-content-center">
+                              <p class="DateTime-title">From date to until date</p>
+                         </div>
+                         <div></div>
+                         <hr />
+                         <div class="d-flex justify-content-center">
+                              <a class="btn border text-danger bg-gradient rounded-pill px-4">Apply <img
+                                        src="./images/right-arrow.png" alt="" /></a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="col">
+               <div class="card">
+                    <!-- ./images -------------------------------------------------------------------------------->
+                    <div class="mission-image">
+                         <img src="./images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" alt=""
+                              class="w-100" />
+                         <div class="pin">
+                              <img src="./images/pin.png" alt="" class="" />&nbsp; Toronto
+                         </div>
+                         <div class="favourite">
+                              <img src="./images/heart.png" alt="" class="mw-50 mh-50" />
+                         </div>
+                         <div class="adduser">
+                              <img src="./images/user.png" alt="" class="mw-50 mh-50" />
+                         </div>
+                    </div>
+                    <!-- Card Body ---------------------------------------------------------------------------->
+                    <div class="card-body">
+                         <div class="d-flex justify-content-center">
+                              <p class="card-title position-absolute">Tree Plantation</p>
+                         </div>
+                         <div class="m-2">
+                              <h4 class="card-text">
+                                   Grow Trees - On the path To enviroment sustainability
+                              </h4>
+                              <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                   Nobis corrupti nesciunt mollitia voluptate minus harum,
+                                   sequi fugiat quis excepturi ipsum animi quod reiciendis
+                                   voluptatibus aperiam alias unde, esse possimus asperiores?
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                   <p>Tree Canada</p>
+                                   <div>
+                                        <div class="d-flex">
+                                             <img src="./images/selected-star.png" alt=""
+                                                  class="mw-100" /><img src="./images/selected-star.png"
+                                                  alt="" /><img src="./images/selected-star.png" alt="" /><img
+                                                  src="./images/selected-star.png" alt="" /><img
+                                                  src="./images/selected-star.png" alt="" />
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <hr />
+                         <div class="d-flex justify-content-center">
+                              <p class="DateTime-title">From date to until date</p>
+                         </div>
+                         <div></div>
+                         <hr />
+                         <div class="d-flex justify-content-center">
+                              <a class="btn border text-danger bg-gradient rounded-pill px-4">Apply <img
+                                        src="./images/right-arrow.png" alt="" /></a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="col">
+               <div class="card">
+                    <!-- ./images -------------------------------------------------------------------------------->
+                    <div class="mission-image">
+                         <img src="./images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" alt=""
+                              class="w-100" />
+                         <div class="pin">
+                              <img src="./images/pin.png" alt="" class="" />&nbsp; Toronto
+                         </div>
+                         <div class="favourite">
+                              <img src="./images/heart.png" alt="" class="mw-50 mh-50" />
+                         </div>
+                         <div class="adduser">
+                              <img src="./images/user.png" alt="" class="mw-50 mh-50" />
+                         </div>
+                    </div>
+                    <!-- Card Body ---------------------------------------------------------------------------->
+                    <div class="card-body">
+                         <div class="d-flex justify-content-center">
+                              <p class="card-title position-absolute">Tree Plantation</p>
+                         </div>
+                         <div class="m-2">
+                              <h4 class="card-text">
+                                   Grow Trees - On the path To enviroment sustainability
+                              </h4>
+                              <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                   Nobis corrupti nesciunt mollitia voluptate minus harum,
+                                   sequi fugiat quis excepturi ipsum animi quod reiciendis
+                                   voluptatibus aperiam alias unde, esse possimus asperiores?
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                   <p>Tree Canada</p>
+                                   <div>
+                                        <div class="d-flex">
+                                             <img src="./images/selected-star.png" alt=""
+                                                  class="mw-100" /><img src="./images/selected-star.png"
+                                                  alt="" /><img src="./images/selected-star.png" alt="" /><img
+                                                  src="./images/selected-star.png" alt="" /><img
+                                                  src="./images/selected-star.png" alt="" />
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <hr />
+                         <div class="d-flex justify-content-center">
+                              <p class="DateTime-title">From date to until date</p>
+                         </div>
+                         <div></div>
+                         <hr />
+                         <div class="d-flex justify-content-center">
+                              <a class="btn border text-danger bg-gradient rounded-pill px-4">Apply <img
+                                        src="./images/right-arrow.png" alt="" /></a>
                          </div>
                     </div>
                </div>

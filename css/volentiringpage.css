@@ -2,6 +2,11 @@
      #chumantar {
      display: none;
      }
+     .linemalava{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+     }
      
      
      }
@@ -116,7 +121,7 @@
      
      .nav-tabs .nav-item.show .nav-link,
      .nav-tabs .nav-link.active {
-     border-bottom: 3px solid black;
+     border-bottom: 2px solid black;
      color: gray;
-     font-weight: 500;
+     font-weight: 200;
      }
